@@ -9,7 +9,7 @@ function indent() {
 }
 
 BUILD_DIR="$1"
-SOURCE_DIR="$(dirname $0)/../freefont-ttf.tar.gz"
+SOURCE_DIR="$(dirname $0)/../freefont-otf.tar.gz"
 TARGET_DIR="$BUILD_DIR/.fonts"
 
 echo "-----> Extracting fonts to $TARGET_DIR"
